@@ -1,0 +1,80 @@
+
+
+.button-orange {
+	-fx-pref-height: 2cm  ;
+    -fx-pref-width: 3cm ;
+	-fx-border-color: black;
+    -fx-font-size: 20pt;
+
+	-fx-alignment: center ;
+    -fx-font: "Arial" ;
+    -fx-font-size: 14;
+    -fx-font-style: normal  ;
+    -fx-font-weight: bold;
+    -fx-background-color: #ffffff;
+    -fx-text-fill   : black;
+}
+
+
+
+
+
+.button-bleu2 {
+	-fx-pref-height: 1cm ;
+    -fx-pref-width: 3cm ;
+	-fx-border-color: black;
+    -fx-font-size: 20pt;
+
+	-fx-alignment: center ;
+    -fx-font: "Arial" ;
+    -fx-font-size: 14;
+    -fx-font-style: normal  ;
+    -fx-font-weight: bold;
+    -fx-background-color: #5599dd;
+    -fx-text-fill   : white ;
+}
+
+.button-bleu2:pressed {
+    -fx-background-color : #7bbcfc;
+    -fx-text-fill   : white ;
+}
+
+
+.label {
+    -fx-font: "Arial" ;
+    -fx-font-size: 18;
+    -fx-font-style: normal  ;
+    -fx-font-weight: bold;
+    -fx-text-fill   : black;
+}
+
+.text-field {
+    -fx-font: "Arial" ;
+    -fx-font-size: 18;
+    -fx-font-style: normal  ;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent ;
+    -fx-focus-traversable: false ;
+}
+
+.text-area {
+    -fx-font: "Arial" ;
+    -fx-font-size: 18;
+    -fx-font-style: normal  ;
+    -fx-font-weight: bold;
+    -fx-border-color: transparent ;
+    -fx-focus-traversable: false ;
+}
+.combo-box {
+    -fx-font: "Arial" ;
+    -fx-font-size: 12;
+    -fx-font-style: normal  ;
+    -fx-font-weight: bold;
+    -fx-text-fill   : black;
+    -fx-border-color: transparent ;
+}
+
+
+
+  
+  

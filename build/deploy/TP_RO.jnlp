@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TP_RO.jnlp">
+  <information>
+    <title>TP_RO</title>
+    <vendor>Hazem_Omar</vendor>
+    <description>ProgrammeLineaire</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TP_RO.jar" size="17727" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="TP_RO.HZH.MainProgLin"  name="ProgrammeLineaire" />
+  <update check="background"/>
+</jnlp>

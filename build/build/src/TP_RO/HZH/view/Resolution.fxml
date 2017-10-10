@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" stylesheets="@Theme22.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TP_RO.HZH.view.ResolutionController">
+   <children>
+      <Label layoutX="272.0" layoutY="39.0" text="Résolution d'un Programme Linéaire" AnchorPane.leftAnchor="214.0" AnchorPane.topAnchor="30.0" />
+      <Label layoutX="81.0" layoutY="111.0" text="Forme Saisie" />
+      <Label fx:id="fSaisie" layoutX="224.0" layoutY="111.0" text="Label" wrapText="true" />
+      <Label layoutX="81.0" layoutY="277.0" text="Forme Canonique" />
+      <Label fx:id="fCanonique" layoutX="81.0" layoutY="308.0" text="Label" />
+      <ImageView fitHeight="18.0" fitWidth="37.0" layoutX="318.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fleche-droite.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="379.0" layoutY="277.0" text="Forme Standard" />
+      <Label fx:id="fStandard" layoutX="379.0" layoutY="308.0" text="Label" />
+   </children>
+</AnchorPane>

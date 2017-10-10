@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" stylesheets="@Theme22.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TP_RO.HZH.view.ProgLinController">
+   <children>
+      <Label layoutX="137.0" layoutY="14.0" text="Résolution d'un programme linéaire" AnchorPane.leftAnchor="214.0" AnchorPane.topAnchor="30.0" />
+      <GridPane layoutX="210.0" layoutY="140.0" prefHeight="142.0" prefWidth="500.0" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="140.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="166.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="334.0" minWidth="10.0" prefWidth="334.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="But de la fonction objective" wrapText="true" />
+            <Label text="Fonction Objective" GridPane.rowIndex="1" />
+            <BorderPane fx:id="paneFnObj" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <BorderPane fx:id="paneSignObj" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <ComboBox fx:id="but" prefWidth="100.0" promptText="Max" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Label layoutX="50.0" layoutY="306.0" text="Contraintes" />
+      <BorderPane fx:id="paneCont" layoutX="60.0" layoutY="336.0" prefHeight="213.0" prefWidth="471.0" />
+      <Button fx:id="continuer" layoutX="482.0" layoutY="548.0" mnemonicParsing="false" onMousePressed="#continSol" styleClass="button-bleu2" stylesheets="@Theme22.css" text="Continuer" />
+      <Button fx:id="retour" layoutX="348.0" layoutY="548.0" mnemonicParsing="false" onMousePressed="#retNbrVar" styleClass="button-bleu2" stylesheets="@Theme22.css" text="Retour" />
+   </children>
+</AnchorPane>

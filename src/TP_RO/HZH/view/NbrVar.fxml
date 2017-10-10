@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@Theme22.css" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TP_RO.HZH.view.NbrVarController">
+   <children>
+      <GridPane layoutX="110.0" layoutY="100.0" prefHeight="200.0" prefWidth="400.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Nombre des Variables" />
+            <Label text="Nombre des Contraintes" GridPane.rowIndex="1" />
+            <TextField fx:id="nbrVar" promptText="Exp: 3" GridPane.columnIndex="1" />
+            <TextField fx:id="nbrCont" promptText="Exp: 2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+      <Label layoutX="214.0" layoutY="30.0" text="Résolution d'un programme linéaire" AnchorPane.leftAnchor="214.0" AnchorPane.topAnchor="30.0" />
+      <Button fx:id="continuer" layoutX="441.0" layoutY="334.0" mnemonicParsing="false" onMousePressed="#continuer" styleClass="button-bleu2" stylesheets="@Theme22.css" text="Continuer" />
+   </children>
+</AnchorPane>
