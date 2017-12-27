@@ -1,5 +1,6 @@
-# JavaFx-Linear-Programme-Resolution
-This an application developped in JavaFX. We develop it to solve a linear program including our education program.
-Now, it only convert the linear program to standard.
+# JavaFx-Linear-Program-Solver
 
-NB: You will found the application .exe on this folder https://github.com/HazemElHaouari/JavaFx-Linear-Programme-Resolution/tree/master/build/deploy/bundles
+This application was developed in JavaFX, for a class project (class of Operational Research).
+This Linear Program Solver, is not a full solver, it only convert the linear program to the standard form.
+
+PS: To try it, you could find the executable (.exe) using this link  : https://github.com/HazemElHaouari/JavaFx-Linear-Programme-Resolution/tree/master/build/deploy/bundles
